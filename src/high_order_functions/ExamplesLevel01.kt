@@ -18,8 +18,6 @@ fun biggerFunction(f:(Int) -> Int, g:(Int) -> Int):(Int) -> Int =
         }
     }
 
-
-
 //Intern functions; you must return a new function where is compose by herself. There is a index which determinate how must times the 'composition' might occur.
 //Example, for f(x) = 2*x and exp = 2 result -> f(f(x)) = 2*(2*x) = 4*x
 fun internFunctions(f:(Int) -> Int, exp:Int): (Int) -> Int{
