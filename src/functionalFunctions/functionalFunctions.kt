@@ -5,27 +5,27 @@ import data_structures.NodeList
 //MAP - maps all the elements in a list and applies each values to a function to generate a new value. A new list is created
 //FILTER - Create a new data structure, where each value agree a condition determinate by a function.
 //REDUCE - Reduce all the values to a single representative value
-fun map(no: NodeList?, f:(Int) -> Int):NodeList?{
+fun <Int>map(no: NodeList<Int>?, f:(Int) -> Int):NodeList<Int>?{
     if(no==null)
         return null
     else
-        return NodeList(f(no.i), map(no.prox, f))
+        return NodeList(f(no.info), map(no.prox, f))
 }
 
-fun filter(no:NodeList?, f:(Int) -> Boolean):NodeList?{
+fun <Int>filter(no:NodeList<Int>?, f:(Int) -> Boolean):NodeList<Int>?{
     if(no==null)
         return null
     else{
-        if(f(no.i))
-            return NodeList(no.i,filter(no.prox,f))
+        if(f(no.info))
+            return NodeList(no.info,filter(no.prox,f))
         else
             return filter(no.prox,f)
     }
 }
 
-fun reduce(no:NodeList?, value:Int, f:(Int, Int) -> Int):Int{
+fun <Int>reduce(no:NodeList<Int>?, value:Int, f:(Int, Int) -> Int):Int{
     if(no!=null)
-        return f(no.i, reduce(no.prox, value, f))
+        return f(no.info, reduce(no.prox, value, f))
     else
         return value
 }

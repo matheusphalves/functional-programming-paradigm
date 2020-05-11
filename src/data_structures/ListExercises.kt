@@ -1,5 +1,4 @@
 package data_structures
-
 //generic list
 data class NodeList<T>(val info:T, val prox:NodeList<T>?){
     override  fun toString(): String {
@@ -100,6 +99,10 @@ fun <T> juntaNo(no1:NodeList<T>?, no2:NodeList<T>?):NodeList<T>?{
         return null
 }
 
+//9 - sum terms
+fun sumTerms (n1:Node?):Int = if(n1==null) 0 else n1.info + sumTerms(n1.prox)
+
+//10 - Contains info
 
 fun main(args:Array<String>):Unit{
 

@@ -2,12 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c9ed1e7-aebb-42d3-a2a7-148f535b289a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data_structures/BinaryTree.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data_structures/LinkedList.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data_structures/ListExercises.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/functionalFunctions/functionalFunctions.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data_structures/TreeExercises.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/high_order_functions/ExamplesLevel02.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/functional-programming-paradigm/META-INF/functional-programming-paradigm.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/functional-programming-paradigm/META-INF/functional-programming-paradigm.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/functional-programming-paradigm/data_structures/BinaryTreeKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/functional-programming-paradigm/data_structures/LinkedListKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/functional-programming-paradigm/data_structures/LinkedListKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/functional-programming-paradigm/data_structures/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/functional-programming-paradigm/data_structures/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/functional-programming-paradigm/functionalFunctions/FunctionalFunctionsKt$even$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/functional-programming-paradigm/functionalFunctions/FunctionalFunctionsKt$even$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/functional-programming-paradigm/functionalFunctions/FunctionalFunctionsKt$main$filterList$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/functional-programming-paradigm/functionalFunctions/FunctionalFunctionsKt$main$filterList$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/functional-programming-paradigm/functionalFunctions/FunctionalFunctionsKt$main$mapList$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/functional-programming-paradigm/functionalFunctions/FunctionalFunctionsKt$main$mapList$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/functional-programming-paradigm/functionalFunctions/FunctionalFunctionsKt$main$reduceList$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/functional-programming-paradigm/functionalFunctions/FunctionalFunctionsKt$main$reduceList$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/functional-programming-paradigm/functionalFunctions/FunctionalFunctionsKt$numbers$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/functional-programming-paradigm/functionalFunctions/FunctionalFunctionsKt$numbers$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/functional-programming-paradigm/functionalFunctions/FunctionalFunctionsKt$odd$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/functional-programming-paradigm/functionalFunctions/FunctionalFunctionsKt$odd$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/functional-programming-paradigm/functionalFunctions/FunctionalFunctionsKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/functional-programming-paradigm/functionalFunctions/FunctionalFunctionsKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structures/BinaryTree.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structures/BinaryTree.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structures/LinkedList.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structures/LinkedList.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structures/ListExercises.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structures/ListExercises.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/functionalFunctions/functionalFunctions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/functionalFunctions/functionalFunctions.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/high_order_functions/ExamplesLevel01.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/high_order_functions/ExamplesLevel01.kt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,7 +66,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Kotlin.data_structures.TreeExercisesKt">
+    <configuration name="data_structures.TreeExercisesKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="functional-programming-paradigm" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="data_structures.TreeExercisesKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="functionalFunctions.FunctionalFunctionsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="functional-programming-paradigm" />
       <option name="VM_PARAMETERS" />
@@ -67,6 +95,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.data_structures.TreeExercisesKt" />
         <item itemvalue="Kotlin.functionalFunctions.FunctionalFunctionsKt" />
       </list>
     </recent_temporary>
@@ -82,7 +111,8 @@
       <option name="presentableId" value="Default" />
       <updated>1588456205622</updated>
       <workItem from="1588456210592" duration="1458000" />
-      <workItem from="1588615303097" duration="3226000" />
+      <workItem from="1588615303097" duration="3831000" />
+      <workItem from="1589220423618" duration="1628000" />
     </task>
     <servers />
   </component>
